@@ -1,4 +1,122 @@
 @font-face {
     font-family: "Releway";
-    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Releway";
+}
+
+a {
+    text-decoration: none;
+    font-family: "Releway";
+}
+
+.main-header {
+    background: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Releway";
+    transition: all 0.3s;
+}
+
+.menu-item:hover {
+    color: #fff;
+}
+
+.btn-white {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-white:hover {
+    color: #444;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 130px 0;
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    line-height: 130px;
+}
+
+.banner-content p {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.btn-blue {
+    padding: 17px 35px;
+    background-color: #3cadd4;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/*--------------------Services---------------------*/
