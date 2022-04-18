@@ -309,3 +309,22 @@ textarea {
     border-radius: 30px;
     margin-top: 20px;
 }
+
+
+/*----------------Footer---------------------*/
+
+.footer {
+    background-color: #383b43;
+    padding: 50px 0;
+}
+
+.copyright li {
+    display: inline;
+    color: #858585;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.copyright a {
+    color: #858585;
+}
