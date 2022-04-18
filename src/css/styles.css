@@ -120,3 +120,78 @@ a {
 
 
 /*--------------------Services---------------------*/
+
+.services {
+    background-color: #f5f5f5;
+    text-align: center;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    padding: 100px 0;
+}
+
+.services-header {
+    margin-bottom: 50px;
+}
+
+.services-header h1 {
+    font-size: 42px;
+    color: #474747;
+    margin-bottom: 12px;
+}
+
+.services-header p {
+    font-size: 22px;
+    color: #858585;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%;
+    padding: 60px 0;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+}
+
+.rounded {
+    border-radius: 100%;
+}
+
+.color-green {
+    background-color: #add43c;
+    color: #fff;
+}
+
+.color-blue {
+    color: #fff;
+    background-color: #3cadd4;
+}
+
+.color-red {
+    background-color: #d43c61;
+    color: #fff;
+}
+
+.big {
+    font-size: 40px;
+    padding: 35px 50px;
+}
+
+.box h4 {
+    color: #858585;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+
+.box p {
+    line-height: 25px;
+    padding: 0 10px;
+}
