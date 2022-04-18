@@ -254,3 +254,58 @@ a {
     margin-bottom: 40px;
     color: #858585;
 }
+
+
+/*----------------Contact----------------------*/
+
+.contact {
+    background-color: #3cadd4;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-header h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.contact-header p {
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+input {
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 10.5px;
+    width: 25%;
+}
+
+textarea {
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    width: 50%;
+    padding: 15px 30px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.btn-dark {
+    padding: 17px 35px;
+    background-color: #383b43;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 20px;
+}
