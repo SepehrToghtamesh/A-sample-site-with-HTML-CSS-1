@@ -328,3 +328,47 @@ textarea {
 .copyright a {
     color: #858585;
 }
+
+
+/*---------------------Media query----------------------*/
+
+@media (max-width: 767.99px) {
+    .menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        color: #fff;
+        font-size: 22px;
+    }
+    .banner-content h1 {
+        font-size: 45px;
+    }
+    .banner-content p {
+        font-size: 18px;
+    }
+    .services-header h1 {
+        font-size: 36px;
+    }
+    .services-header p {
+        font-size: 18px;
+    }
+    .services-content {
+        grid-template-columns: 1fr;
+    }
+    .about-header h2 {
+        font-size: 36px;
+    }
+    .about-header p {
+        font-size: 18px;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .contact-header h2 {
+        font-size: 36px;
+    }
+    .contact-header p {
+        font-size: 18px;
+    }
+}
